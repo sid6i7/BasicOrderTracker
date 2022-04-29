@@ -11,9 +11,10 @@ The delivery units can:
 - Can send OTP verification message of the delivery/order to the relevant shop owner (person that has placed the order).
 - Can send successful delivery message to the distribution owner.
 
+
 <table>
   <tr>
-    <td><center>Home Page</td>
+    <td style="text-align:center">Home Page</td>
      <td>List of Deliveries Page</td>
      <td>Delivery Confirmation Page</td>
   </tr>
