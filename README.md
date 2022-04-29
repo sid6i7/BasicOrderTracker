@@ -2,6 +2,7 @@
 
 ## About
 A basic order tracker android application that I built for a college project.
+Language used: Java
 
 ## Features
 The delivery units can:
