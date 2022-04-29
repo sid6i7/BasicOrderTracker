@@ -25,14 +25,14 @@ The delivery units can:
   </tr>
  </table>
 
-## Screenshots of delivery texts
+## Screenshots of Delivery Texts
 <table>
   <tr>
     <td>OTP Verification</td>
      <td>Delivery Confirmation</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/92942861/165924635-cbdd436c-d0f5-469d-a0b5-cb10a5045f27.png" width=100></td>
-    <td><img src="https://user-images.githubusercontent.com/92942861/165924672-b935ee2e-a4c3-47a4-9039-6fa3e4d54aae.png" width=100></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165924635-cbdd436c-d0f5-469d-a0b5-cb10a5045f27.png" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165924672-b935ee2e-a4c3-47a4-9039-6fa3e4d54aae.png" width=270 height=480></td>
   </tr>
  </table>
