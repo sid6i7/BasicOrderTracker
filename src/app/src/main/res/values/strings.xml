@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OrderTrackerBasic</string>
+
+    <string-array name="delivery_statuses">
+        <item>Complete</item>
+        <item>Partial</item>
+    </string-array>
+
+    <string-array name="mode_of_payments">
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Credit</item>
+    </string-array>
+
+</resources>

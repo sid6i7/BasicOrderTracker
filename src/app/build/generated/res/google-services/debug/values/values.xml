@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">229768888861-tonuiq7l8ekb93199jrvk79h9e9kk736.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">229768888861</string>
+    <string name="google_api_key" translatable="false">AIzaSyAcE-sWVYX9z-In7Omjbk9k-L57Xg-mKe4</string>
+    <string name="google_app_id" translatable="false">1:229768888861:android:ab92b389dce60a0c597cf4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAcE-sWVYX9z-In7Omjbk9k-L57Xg-mKe4</string>
+    <string name="google_storage_bucket" translatable="false">ordertrackerbasic.appspot.com</string>
+    <string name="project_id" translatable="false">ordertrackerbasic</string>
+</resources>
