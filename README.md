@@ -13,7 +13,7 @@ The delivery units can:
 
 <table>
   <tr>
-    <td>Home Page</td>
+    <td><center>Home Page</td>
      <td>List of Deliveries Page</td>
      <td>Delivery Confirmation Page</td>
   </tr>
