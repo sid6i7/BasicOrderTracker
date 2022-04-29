@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/icon_button"
+            android:layout_width="76dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.434"
+            app:srcCompat="@drawable/delivery" />
+
+        <TextView
+            android:id="@+id/d_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toEndOf="@+id/icon_button"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bill_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toEndOf="@+id/icon_button"
+            app:layout_constraintTop_toBottomOf="@+id/d_ID" />
+
+        <TextView
+            android:id="@+id/d_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/d_amt"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+        <TextView
+            android:id="@+id/d_amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="16sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/d_amount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.433"
+            app:layout_constraintStart_toEndOf="@+id/d_ID" />
+
+        <TextView
+            android:id="@+id/d_id_d_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery ID"
+            android:textSize =  "16sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/d_ID"
+            app:layout_constraintEnd_toStartOf="@+id/d_ID"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toEndOf="@+id/icon_button" />
+
+        <TextView
+            android:id="@+id/bill_no_d_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill no."
+            android:textSize =  "16sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bill_no"
+            app:layout_constraintEnd_toStartOf="@+id/bill_no"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toEndOf="@+id/icon_button" />
+
+        <Button
+            android:id="@+id/d_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.258"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/d_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
