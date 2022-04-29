@@ -11,4 +11,15 @@ The delivery units can:
 - Can send OTP verification message of the delivery/order to the relevant shop owner (person that has placed the order).
 - Can send successful delivery message to the distribution owner.
 
-### Home page of the delivery unit:
+<table>
+  <tr>
+    <td>Home Page</td>
+     <td>List of Deliveries Page</td>
+     <td>Delivery Confirmation Page</td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165922671-b684bb94-7e02-4358-852a-bae33f13e74d.png" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165922750-1239f4c8-a470-47b6-a6f7-0e560cdc04cb.png" width=270 height=480></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165922832-be6f8a16-0f37-404b-ad2a-0288b8b86727.png" width=270 height=480></td>
+  </tr>
+ </table>
