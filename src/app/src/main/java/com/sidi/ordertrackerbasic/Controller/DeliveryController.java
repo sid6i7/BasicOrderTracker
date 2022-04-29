@@ -90,13 +90,13 @@ public class DeliveryController {
 
     public Notification createOwnerNotification(Delivery delivery){
         String message = "Delivery Number: " + delivery.getID() + "\nDelivered to " + delivery.getDelivery_address() + "\nBy Unit number: " + delivery.getUnit_ID() + "\nStatus: " + delivery.getDelivery_status();
-        Notification notification = new Notification("9479803829");
+        Notification notification = new Notification("distribution_owner_phone_number");
         notification.addMessage(message);
         return notification;
     }
     public Notification createOwnerNotification(PartialDelivery delivery){
         String message = "Delivery #" + delivery.getID() + " delivered to " + delivery.getDelivery_address() + " by unit #" + delivery.getUnit_ID() + "\nStatus: " + delivery.getDelivery_status() + "\nAmount received: " + delivery.getAmountToBePayed()+ "\nQuantity received: " + delivery.getAmountToBePayed();
-        Notification notification = new Notification("9575602399");
+        Notification notification = new Notification("distribution_owner_phone_number");
         notification.addMessage(message);
         return notification;
     }
@@ -148,7 +148,7 @@ public class DeliveryController {
         }
     }
 
-    public void confirmDelivery(PartialDelivery delivery) { //TOdo fix this method
+    public void confirmDelivery(PartialDelivery delivery) {
         try {
             dc.updateDelivery(delivery, delivery.getDelivery_status());
             Log.d("Delivery Status", "Changed delivery status of " + delivery.getID() + " to " + "partial"+"\n Mode of payment: " + delivery.getMode_of_payment());
@@ -164,7 +164,7 @@ public class DeliveryController {
         messages.add(message);
         message = "Remarks: " + remarks;
         messages.add(message);
-        NotificationController.sendText("9575602300", messages);
+        NotificationController.sendText("distribution_owner_phone_number", messages);
    }
 
 }

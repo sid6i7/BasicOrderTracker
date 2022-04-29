@@ -132,7 +132,7 @@ public class DataController extends SQLiteOpenHelper {
         values.put("email", "siddhantjain208@gmail.com");
         values.put("password", "123456");
         values.put("fullname", "Siddhant Jain");
-        values.put("phoneNumber", "9575602399");
+        values.put("phoneNumber", "22223");
         values.put("status", "inactive");
 
         // after adding all values we are passing
@@ -159,7 +159,6 @@ public class DataController extends SQLiteOpenHelper {
         String mode_of_payment;
         String shopPhoneNumber;
         Delivery delivery;
-        System.out.println("chutiya: " + cursor.getInt(0));
         float amount;
         int quantity;
 
@@ -176,7 +175,6 @@ public class DataController extends SQLiteOpenHelper {
             if(delivery_status.equals("ongoing")) {
                 delivery = new Delivery(ID, unit_ID, delivery_status, delivery_address, bill_no, amount, quantity, mode_of_payment, shopPhoneNumber);
                 deliveries.add(delivery);
-                System.out.println("chutiya " + delivery_status);
             }
         }while(cursor.moveToNext());
 
@@ -247,7 +245,7 @@ public class DataController extends SQLiteOpenHelper {
         values.put("amount", amount);
         values.put("quantity", 10);
         values.put("mode_of_payment", "null");
-        values.put("shop_phone_number", "9575602399");
+        values.put("shop_phone_number", "999999999");
 
         // after adding all values we are passing
         // content values to our table.
@@ -403,14 +401,12 @@ public class DataController extends SQLiteOpenHelper {
 
         Cursor cursor = db.rawQuery("SELECT * FROM deliveryUnit", null);
         cursor.moveToFirst();
-        System.out.println("sex" + cursor.getString(3));
 
         cursor = db.rawQuery("SELECT * FROM delivery", null);
         cursor.moveToFirst();
-        System.out.println("sex" + cursor.getString(3));
+        System.out.println("works" + cursor.getString(3));
         ArrayList<Delivery> deliveries = fetchAllDelivery(cursor.getInt(0));
         System.out.println("works: " + deliveries.get(0).getBill_no());
-        System.out.println("status: " + deliveries.get(0).getQuantity());
 
         db.close();
     }
