@@ -32,7 +32,7 @@ The delivery units can:
      <td>Delivery Confirmation</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/92942861/165924635-cbdd436c-d0f5-469d-a0b5-cb10a5045f27.png" width=400 height=450></td>
-    <td><img src="https://user-images.githubusercontent.com/92942861/165924672-b935ee2e-a4c3-47a4-9039-6fa3e4d54aae.png" width=400 height=450></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165924635-cbdd436c-d0f5-469d-a0b5-cb10a5045f27.png" width=500 height=450></td>
+    <td><img src="https://user-images.githubusercontent.com/92942861/165924672-b935ee2e-a4c3-47a4-9039-6fa3e4d54aae.png" width=500 height=450></td>
   </tr>
  </table>
