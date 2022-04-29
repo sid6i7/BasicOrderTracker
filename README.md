@@ -10,11 +10,11 @@ The delivery units can:
 - Enter the mode of payment + delivery status
 - Can send OTP verification message of the delivery/order to the relevant shop owner (person that has placed the order).
 - Can send successful delivery message to the distribution owner.
-
-
+<br>
+<br>
 <table>
   <tr>
-    <td style="text-align:center">Home Page</td>
+    <td>Home Page</td>
      <td>List of Deliveries Page</td>
      <td>Delivery Confirmation Page</td>
   </tr>
