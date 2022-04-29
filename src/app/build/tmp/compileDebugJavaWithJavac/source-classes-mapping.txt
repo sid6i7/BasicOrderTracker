@@ -1,5 +1,5 @@
-com/sidi/ordertrackerbasic/Controller/DeliveryController.java
- com.sidi.ordertrackerbasic.Controller.DeliveryController
+com/sidi/ordertrackerbasic/BuildConfig.java
+ com.sidi.ordertrackerbasic.BuildConfig
 com/sidi/ordertrackerbasic/Boundry/LoginGUI.java
  com.sidi.ordertrackerbasic.Boundry.LoginGUI
  com.sidi.ordertrackerbasic.Boundry.LoginGUI$1
@@ -11,9 +11,8 @@ com/sidi/ordertrackerbasic/Entity/Delivery.java
  com.sidi.ordertrackerbasic.Entity.Delivery
 com/sidi/ordertrackerbasic/Entity/Notification.java
  com.sidi.ordertrackerbasic.Entity.Notification
-com/sidi/ordertrackerbasic/Boundry/CancellationGUI.java
- com.sidi.ordertrackerbasic.Boundry.CancellationGUI
- com.sidi.ordertrackerbasic.Boundry.CancellationGUI$1
+com/sidi/ordertrackerbasic/Controller/NotificationController.java
+ com.sidi.ordertrackerbasic.Controller.NotificationController
 com/sidi/ordertrackerbasic/Controller/displayAdapters/DeliveryListAdapter.java
  com.sidi.ordertrackerbasic.Controller.displayAdapters.DeliveryListAdapter
  com.sidi.ordertrackerbasic.Controller.displayAdapters.DeliveryListAdapter$ViewHolder
@@ -21,25 +20,26 @@ com/sidi/ordertrackerbasic/Controller/displayAdapters/DeliveryListAdapter.java
  com.sidi.ordertrackerbasic.Controller.displayAdapters.DeliveryListAdapter$ViewHolder$2
 com/sidi/ordertrackerbasic/Controller/LoginController.java
  com.sidi.ordertrackerbasic.Controller.LoginController
-com/sidi/ordertrackerbasic/Boundry/OTPVerificationGUI.java
- com.sidi.ordertrackerbasic.Boundry.OTPVerificationGUI
- com.sidi.ordertrackerbasic.Boundry.OTPVerificationGUI$1
+com/sidi/ordertrackerbasic/Controller/DataController.java
+ com.sidi.ordertrackerbasic.Controller.DataController
 com/sidi/ordertrackerbasic/Boundry/DeliveryUnitHomeGUI.java
  com.sidi.ordertrackerbasic.Boundry.DeliveryUnitHomeGUI
  com.sidi.ordertrackerbasic.Boundry.DeliveryUnitHomeGUI$1
  com.sidi.ordertrackerbasic.Boundry.DeliveryUnitHomeGUI$2
  com.sidi.ordertrackerbasic.Boundry.DeliveryUnitHomeGUI$3
+com/sidi/ordertrackerbasic/Entity/PartialDelivery.java
+ com.sidi.ordertrackerbasic.Entity.PartialDelivery
+com/sidi/ordertrackerbasic/Controller/UnitController.java
+ com.sidi.ordertrackerbasic.Controller.UnitController
+com/sidi/ordertrackerbasic/Controller/DeliveryController.java
+ com.sidi.ordertrackerbasic.Controller.DeliveryController
+com/sidi/ordertrackerbasic/Boundry/OTPVerificationGUI.java
+ com.sidi.ordertrackerbasic.Boundry.OTPVerificationGUI
+ com.sidi.ordertrackerbasic.Boundry.OTPVerificationGUI$1
 com/sidi/ordertrackerbasic/Boundry/ConfirmationGUI.java
  com.sidi.ordertrackerbasic.Boundry.ConfirmationGUI
  com.sidi.ordertrackerbasic.Boundry.ConfirmationGUI$1
  com.sidi.ordertrackerbasic.Boundry.ConfirmationGUI$2
-com/sidi/ordertrackerbasic/Controller/UnitController.java
- com.sidi.ordertrackerbasic.Controller.UnitController
-com/sidi/ordertrackerbasic/Controller/NotificationController.java
- com.sidi.ordertrackerbasic.Controller.NotificationController
-com/sidi/ordertrackerbasic/Entity/PartialDelivery.java
- com.sidi.ordertrackerbasic.Entity.PartialDelivery
-com/sidi/ordertrackerbasic/Controller/DataController.java
- com.sidi.ordertrackerbasic.Controller.DataController
-com/sidi/ordertrackerbasic/BuildConfig.java
- com.sidi.ordertrackerbasic.BuildConfig
+com/sidi/ordertrackerbasic/Boundry/CancellationGUI.java
+ com.sidi.ordertrackerbasic.Boundry.CancellationGUI
+ com.sidi.ordertrackerbasic.Boundry.CancellationGUI$1
